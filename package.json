@@ -1,28 +1,30 @@
 {
   "name": "ipfs-fleek-tutorial",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "export": "next export",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },    
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcarisland/ipfs-fleek-tutorial.git"
+  },
+  "scripts": {
+    "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "export": "next export"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcarisland/ipfs-fleek-tutorial/issues"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "13.5.4"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10",
-    "postcss": "^8",
-    "tailwindcss": "^3",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.4"
+    "next": "^13.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
